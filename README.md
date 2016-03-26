@@ -6,5 +6,11 @@ Use the friendly API (with documentation!) to create .dll plugins for this progr
 
 Clean user interface with Metro Framework and greatly statisfying, smooth animations (which can be configured in the settings tab).
 
+##### Sleek UI:
 ![](http://i.snag.gy/R3gCj.jpg)
+
+##### Supports complex equations:
 ![](http://i.snag.gy/2nOOv.jpg)
+
+##### Step by step answers:
+![](http://i.snag.gy/afg7L.jpg)
