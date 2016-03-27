@@ -64,9 +64,16 @@ namespace MathQGen.UI
                 WebBrowser wb = new WebBrowser();
                 wb.ScriptErrorsSuppressed = true;
                 wb.Dock = DockStyle.Fill;
-                if (!func.Contains("www."))
+                if (!func.StartsWith(@"http://"))
                 {
-                    wb.DocumentText = func;
+                    if (func.Contains("<html>"))
+                    {
+                        wb.DocumentText = func;
+                    }
+                    else
+                    {
+                        wb.DocumentText = "<html><head></head><body style=\"\r\n    position: absolute;\r\n    left: 50%;\r\n    top: 50%;        /*    Nope =(    margin-left: -25%;    margin-top: -25%;    */      /*     Yep!    */\r\n    transform: translate(-50%, -50%);        /*    Not even necessary really.     e.g. Height could be left out!    */\r\n    width: 40%;\r\n    height: 50%;\r\n\">" + func + "</body></html>";
+                    }
                 }
                 else
                 {

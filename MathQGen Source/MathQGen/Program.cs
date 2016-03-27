@@ -16,6 +16,7 @@ namespace MathQGen
         [STAThread]
         static void Main()
         {
+            UI.BrowserEmulation.SetBrowserEmulationVersion();
             foreach (var t in Assembly.GetExecutingAssembly().GetTypes().ToList().Where(t => t.Namespace == "MathQGen.DefaultGens").ToList())
             {
                 IGenerator gen = (IGenerator)Activator.CreateInstance(t);
