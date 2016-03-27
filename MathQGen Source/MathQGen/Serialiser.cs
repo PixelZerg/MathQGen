@@ -47,7 +47,7 @@ namespace MathQGen
         {
             Console.WriteLine("Loading external plugins...");
             List<Type> pt = new List<Type>();
-            foreach (string file in Directory.GetFiles(PublicResources.pluginDir.FullName, "*.dll"))
+            foreach (string file in Directory.GetFiles(Utils.pluginDir.FullName, "*.dll"))
             {
                 //Console.WriteLine(file);
                 Assembly asm = Assembly.Load(AssemblyName.GetAssemblyName(file));

@@ -30,8 +30,8 @@
         {
             this.Display = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -50,28 +50,13 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.metroLabel1);
+            this.panel1.Controls.Add(this.richTextBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(718, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(0, 75);
             this.panel1.TabIndex = 0;
             this.panel1.Click += new System.EventHandler(this.OnClick);
-            // 
-            // metroLabel1
-            // 
-            this.metroLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.metroLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel1.Location = new System.Drawing.Point(0, 0);
-            this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(0, 75);
-            this.metroLabel1.TabIndex = 2;
-            this.metroLabel1.Text = "step: ";
-            this.metroLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.metroLabel1.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroLabel1.Click += new System.EventHandler(this.OnClick);
             // 
             // panel2
             // 
@@ -82,6 +67,20 @@
             this.panel2.Size = new System.Drawing.Size(718, 75);
             this.panel2.TabIndex = 4;
             this.panel2.Click += new System.EventHandler(this.OnClick);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.Black;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox1.ForeColor = System.Drawing.Color.White;
+            this.richTextBox1.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(0, 75);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = "";
+            this.richTextBox1.Click += new System.EventHandler(this.OnClick);
             // 
             // StepUC
             // 
@@ -103,7 +102,7 @@
         #endregion
         private System.Windows.Forms.Panel Display;
         private System.Windows.Forms.Panel panel1;
-        private MetroFramework.Controls.MetroLabel metroLabel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

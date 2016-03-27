@@ -39,12 +39,13 @@ namespace MathQGen.UI
 
         public void SetDesc(string txt)
         {
-            metroLabel1.Text="";
-            foreach (string s in Split(txt, 31))
-            {
-                //metroLabel1.Text += s + Environment.NewLine;
-            }
-            metroLabel1.Text = txt;
+            //metroLabel1.Text="";
+            //foreach (string s in Split(txt, 31))
+            //{
+            //    //metroLabel1.Text += s + Environment.NewLine;
+            //}
+            //metroLabel1.Text = txt;
+            richTextBox1.Text = txt;
         }
         private IEnumerable<string> Split(string str, int chunkSize)
         {
