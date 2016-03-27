@@ -6,15 +6,18 @@ Use the friendly API (with documentation!) to create .dll plugins for this progr
 
 Clean user interface with Metro Framework and greatly statisfying, smooth animations (which can be configured in the settings tab).
 
-##### Sleek UI:
+#### Sleek UI:
 ![](http://i.snag.gy/R3gCj.jpg)
 
-##### Supports complex equations:
+#### Supports complex equations:
 ![](http://i.snag.gy/2nOOv.jpg)
 
-##### Step by step answers:
+#### ... and complex diagrams:
+![](http://i.snag.gy/p8HfP.jpg)
+
+#### Step by step answers:
 ![](http://i.snag.gy/afg7L.jpg)
 
 
 
-### NB: The source is slightly more outdated than the binaries
+<s><h3>NB: The source is slightly more outdated than the binaries</h3></s>
