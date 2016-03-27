@@ -12,6 +12,9 @@ Clean user interface with Metro Framework and greatly statisfying, smooth animat
 ##### Supports complex equations:
 ![](http://i.snag.gy/2nOOv.jpg)
 
+#### ... and complex diagrams:
+![](http://i.snag.gy/p8HfP.jpg)
+
 ##### Step by step answers:
 ![](http://i.snag.gy/afg7L.jpg)
 
