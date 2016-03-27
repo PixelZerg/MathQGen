@@ -17,4 +17,4 @@ Clean user interface with Metro Framework and greatly statisfying, smooth animat
 
 
 
-### NB: The source is slightly more outdated than the binaries
+<s><h3>NB: The source is slightly more outdated than the binaries</h3></s>
